@@ -1,10 +1,30 @@
-.App {
-  text-align: center;
-}
 
 body {
-  background-color: rgba(0, 98, 255, 0.412);
+  background-image: url("./image/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
-div {
+
+.container {
+  background-color: rgb(234, 230, 5);
+  height: 200px;
+  width: 50%;
+  margin: 100px auto;
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 50px;
+  text-align: center;
+  color: black;
   font-size: 30px;
+  font-weight: 900;
+  padding: 10px, 10px;
+}
+
+.header{
+  color: white;
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 50px;
 }

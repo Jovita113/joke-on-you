@@ -1,12 +1,18 @@
 import React from "react";
 
-const Joke = ({ joke, type, setup, delivery, category }) => {
+const Joke = ({ joke, setup, delivery }) => {
   return (
-    <li>
-      <div style={{color: "white"}}>{delivery || setup ? delivery&&setup : joke}</div>
-      <div>{category}</div>
-      <div style={{ color: "green"}}><i>Type: </i>{type}</div>
-    </li>
+    <div className="container">
+        <div>
+            {joke}
+        </div>
+        <div>
+            {setup}
+        </div>
+        <div>
+            {delivery}
+        </div>
+    </div>
   );
 };
 
