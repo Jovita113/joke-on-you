@@ -22,12 +22,12 @@ const Jokes = () => {
 
     return (
         
-        <ul>
+        <>
             {data.map((joke, id) => (
-                <Joke key={id} joke={joke.joke} type={joke.type} setup={joke.setup} delivery={joke.delivery}/>
+                <Joke key={id} joke={joke.joke} category={joke.category} type={joke.type} setup={joke.setup} delivery={joke.delivery}/>
                 
             ))} {" "}
-        </ul>
+        </>
     );
 }
 
